@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :counter, Counter.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "admin",
   hostname: "localhost",
   database: "counter_dev",
   stacktrace: true,
